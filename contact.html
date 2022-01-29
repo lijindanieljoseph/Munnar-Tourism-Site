@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="view port" content="width=device-width, initial-scale=1.0">
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="assests/css/style.css">
+        <style>
+            body {
+              background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('assests/img/background.png');
+              background-size: cover;
+            }
+            </style>
+            <script>
+              function myFunction() {
+                alert("Thank you for your feedback");
+              }
+              </script>
+    </head>
+    <body>
+
+         <!--header-->
+         <header>
+            <div id="nav">
+                <a href="home.html">HOME</a>
+                <a href="about_us.html">ABOUT US</a>
+                <a href="place.html">PLACE TO VISIT</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="contact.html">CONTACT</a>
+                <h1 class="logo">MUNNAR &nbsp &nbsp<img src="assests/img/logo.png" alt="logo" width="50" height="50"></h1>
+            
+            </div>
+        </header>
+
+        <!-- contact-->
+        <br><br>
+        <div class="container3">
+
+
+            <form action="" method="post" style="color: white;">
+                <div class="row">
+                    <div class="col-25">
+                      <label for="fname">FirstName</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">LastName</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                        <label for="mobile">Mobile</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="mobile" name="mobile" placeholder="Your Number.."required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                        <label for="emailid">EmailID </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="emailid" name="email" placeholder="Your Email.."required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country">Country</label>
+                    </div>
+                    <div class="col-75">
+                        <select>
+                        <option>India</option>
+                        <option>Sri Lanka</option>
+                        <option>United States</option>
+                        <option>Indonesia</option>
+                        <option>Brazil</option>
+                        <option>Portugal</option>
+                        <option>Nepal</option>
+                        <option>NEW zealand</option>
+                        <option>Russia</option>
+                        <option>Spain</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Feedback</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-75">
+                        <input type="submit" value="Submit" action="" onclick="myFunction()">
+                </div>
+                </div>
+                </form>
+        </div>
+        <!--footer-->
+        <footer>
+            <h4>&copy; Copyright Reserved. 2021 </h4>
+        </footer>
+        
+    </body>
+</html>
